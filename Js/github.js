@@ -3,7 +3,3 @@ if (condicion)
 {
 	# Instrucciones Verdadero
 }
-else
-{
-	# Instrucciones Falso
-}
