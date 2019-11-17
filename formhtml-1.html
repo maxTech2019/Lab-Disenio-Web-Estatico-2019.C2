@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="es">
+ <head>
+ 	<title>Formularios en HTML 5</title>
+ 	<meta charset="utf-8">
+    <script type="text/javascript" src="Js/logicaEdad.js"></script>
+ </head>
+ <body>
+   <form name="miform">
+   	 <p>Nombre: <input type="text" name="txtnombre" size="30" maxlength="5" required
+                    placeholder="Escriba sus Nombres Completos"></p>
+
+   	 <p>Año Nacimiento: <input type="number" name="bnacimiento" min="1970" max="2019"></p>
+   	 <p>Sexo: 
+   	 	<input type="radio" name="cksexo" value="Hombre">HOMBRE
+   	 	<input type="radio" name="cksexo" value="Mujer">MUJER
+   	 </p>
+   	 <p>
+       <button onclick="esMayorEdad()">
+         <img src="Image/boton1.png" alt="imagen" width="32" height="32" style="vertical-align: middle">
+         Enviar
+       </button>
+   	</p>
+      <p>URL: <input type="url" name="direccion" size="40"></p>
+   </form>
+ </body>
+</html>	
